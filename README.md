@@ -4,8 +4,8 @@
 
 ## Technologies Used
 
-- Programming Languages: JavaScript, and CSS.
-- Frameworks: Next.js, Tailwind CSS.
+- Programming Languages: JavaScript and CSS.
+- Frameworks: Next.js and Tailwind CSS.
 - Libraries: React.
 - Software: Visual Studio Code and GitHub.
 - Deployment: .
