@@ -6,7 +6,8 @@
 
 - Programming Languages: JavaScript and CSS.
 - Frameworks: Next.js and Tailwind CSS.
-- Libraries: React.
+- Library: React.
+- Form Services: Web3Forms.
 - Software: Visual Studio Code and GitHub.
 - Deployment: .
 
