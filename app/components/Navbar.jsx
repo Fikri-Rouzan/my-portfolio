@@ -51,27 +51,42 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           } `}
         >
           <li>
-            <a className="font-OVo" href="#top">
+            <a
+              className="font-OVo hover:text-pink-400 dark:hover:text-lime-300 transition"
+              href="#top"
+            >
               Home
             </a>
           </li>
           <li>
-            <a className="font-OVo" href="#about">
+            <a
+              className="font-OVo hover:text-pink-400 dark:hover:text-lime-300 transition"
+              href="#about"
+            >
               About Me
             </a>
           </li>
           <li>
-            <a className="font-OVo" href="#services">
+            <a
+              className="font-OVo hover:text-pink-400 dark:hover:text-lime-300 transition"
+              href="#services"
+            >
               Services
             </a>
           </li>
           <li>
-            <a className="font-OVo" href="#work">
+            <a
+              className="font-OVo hover:text-pink-400 dark:hover:text-lime-300 transition"
+              href="#work"
+            >
               My Work
             </a>
           </li>
           <li>
-            <a className="font-OVo" href="#contact">
+            <a
+              className="font-OVo hover:text-pink-400 dark:hover:text-lime-300 transition"
+              href="#contact"
+            >
               Contact Me
             </a>
           </li>
@@ -86,9 +101,9 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </button>
           <a
             href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-OVo dark:border-white/50"
+            className="hidden lg:flex items-center gap-3 px-10 py-2.5 transition border border-gray-500 rounded-full ml-4 font-OVo hover:text-pink-400 dark:border-white/50 dark:hover:text-lime-300"
           >
-            Contact{" "}
+            Contact
             <Image
               src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon}
               alt=""
