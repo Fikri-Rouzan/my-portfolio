@@ -9,7 +9,6 @@ import vscode from "./vscode.png";
 import firebase from "./firebase.png";
 import figma from "./figma.png";
 import git from "./git.png";
-import mongodb from "./mongodb.png";
 import right_arrow_white from "./right-arrow-white.png";
 import logo from "./logo.png";
 import logo_dark from "./logo_dark.png";
@@ -34,6 +33,12 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import github from "./github.png";
+import github_dark from "./github-dark.png";
+import canva from "./canva.png";
+import laragon from "./laragon.png";
+import linkedin from "./linkedin.png";
+import linkedin_dark from "./linkedin-dark.png";
 
 export const assets = {
   user_image,
@@ -47,7 +52,6 @@ export const assets = {
   firebase,
   figma,
   git,
-  mongodb,
   right_arrow_white,
   logo,
   logo_dark,
@@ -72,6 +76,12 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+  github,
+  github_dark,
+  canva,
+  laragon,
+  linkedin,
+  linkedin_dark,
 };
 
 export const workData = [
@@ -137,7 +147,8 @@ export const infoList = [
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Science",
+    description:
+      "Informatics Engineering student at Syarif Hidayatullah State Islamic University Jakarta",
   },
   {
     icon: assets.project_icon,
@@ -150,7 +161,8 @@ export const infoList = [
 export const toolsData = [
   assets.vscode,
   assets.firebase,
-  assets.mongodb,
   assets.figma,
   assets.git,
+  assets.canva,
+  assets.laragon,
 ];
