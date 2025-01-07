@@ -52,7 +52,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         >
           <li>
             <a
-              className="font-OVo hover:text-pink-400 dark:hover:text-lime-300 transition"
+              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               href="#top"
             >
               Home
@@ -60,7 +60,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a
-              className="font-OVo hover:text-pink-400 dark:hover:text-lime-300 transition"
+              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               href="#about"
             >
               About Me
@@ -68,7 +68,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a
-              className="font-OVo hover:text-pink-400 dark:hover:text-lime-300 transition"
+              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               href="#services"
             >
               Services
@@ -76,15 +76,15 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a
-              className="font-OVo hover:text-pink-400 dark:hover:text-lime-300 transition"
-              href="#work"
+              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              href="#projects"
             >
-              My Work
+              Projects
             </a>
           </li>
           <li>
             <a
-              className="font-OVo hover:text-pink-400 dark:hover:text-lime-300 transition"
+              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               href="#contact"
             >
               Contact Me
@@ -101,7 +101,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </button>
           <a
             href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 transition border border-gray-500 rounded-full ml-4 font-OVo hover:text-pink-400 dark:border-white/50 dark:hover:text-lime-300"
+            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-OVo hover:text-pink-500 dark:border-white/50 dark:hover:text-lime-300 transition-colors"
           >
             Contact
             <Image
@@ -132,27 +132,47 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             />
           </div>
           <li>
-            <a className="font-OVo" onClick={closeMenu} href="#top">
+            <a
+              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              onClick={closeMenu}
+              href="#top"
+            >
               Home
             </a>
           </li>
           <li>
-            <a className="font-OVo" onClick={closeMenu} href="#about">
+            <a
+              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              onClick={closeMenu}
+              href="#about"
+            >
               About Me
             </a>
           </li>
           <li>
-            <a className="font-OVo" onClick={closeMenu} href="#services">
+            <a
+              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              onClick={closeMenu}
+              href="#services"
+            >
               Services
             </a>
           </li>
           <li>
-            <a className="font-OVo" onClick={closeMenu} href="#work">
-              My Work
+            <a
+              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              onClick={closeMenu}
+              href="#projects"
+            >
+              Projects
             </a>
           </li>
           <li>
-            <a className="font-OVo" onClick={closeMenu} href="#contact">
+            <a
+              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              onClick={closeMenu}
+              href="#contact"
+            >
               Contact Me
             </a>
           </li>
