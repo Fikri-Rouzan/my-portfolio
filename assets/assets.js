@@ -2,8 +2,6 @@ import code_icon from "./icons/code-icon.png";
 import code_icon_dark from "./icons/code-icon-dark.png";
 import edu_icon from "./icons/edu-icon.png";
 import edu_icon_dark from "./icons/edu-icon-dark.png";
-import project_icon from "./icons/project-icon.png";
-import project_icon_dark from "./icons/project-icon-dark.png";
 import mail_icon from "./icons/mail_icon.png";
 import mail_icon_dark from "./icons/mail_icon_dark.png";
 import close_black from "./icons/close-black.png";
@@ -26,7 +24,6 @@ import ui_icon from "./icons/ui-icon.png";
 import graphics_icon from "./icons/graphics-icon.png";
 
 import vscode from "./tools/vscode.png";
-import firebase from "./tools/firebase.png";
 import figma from "./tools/figma.png";
 import git from "./tools/git.png";
 import canva from "./tools/canva.png";
@@ -48,8 +45,6 @@ export const assets = {
   code_icon_dark,
   edu_icon,
   edu_icon_dark,
-  project_icon,
-  project_icon_dark,
   mail_icon,
   mail_icon_dark,
   close_black,
@@ -72,7 +67,6 @@ export const assets = {
   graphics_icon,
 
   vscode,
-  firebase,
   figma,
   git,
   canva,
@@ -160,17 +154,10 @@ export const infoList = [
     description:
       "Informatics Engineering student at Syarif Hidayatullah State Islamic University Jakarta",
   },
-  {
-    icon: assets.project_icon,
-    iconDark: assets.project_icon_dark,
-    title: "Projects",
-    description: "Built more than 5 projects",
-  },
 ];
 
 export const toolsData = [
   assets.vscode,
-  assets.firebase,
   assets.figma,
   assets.git,
   assets.canva,

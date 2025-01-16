@@ -53,7 +53,7 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-OVo">
-            I am an experienced Frontend Developer.
+            Hello my name is Muhammad Fikri Rouzan Ash Shidik.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}

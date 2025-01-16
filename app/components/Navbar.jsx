@@ -87,7 +87,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               href="#contact"
             >
-              Contact Me
+              Contact
             </a>
           </li>
         </ul>
@@ -173,7 +173,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               onClick={closeMenu}
               href="#contact"
             >
-              Contact Me
+              Contact
             </a>
           </li>
         </ul>
