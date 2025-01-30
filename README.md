@@ -9,5 +9,5 @@
 - Frameworks: Next.js and Tailwind CSS.
 - Libraries: React and Motion.
 - Form Service: Web3Forms.
-- Software: Visual Studio Code and GitHub.
-- Deployment: .
+- Software: Visual Studio Code.
+- Deployment: Vercel.
