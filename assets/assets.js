@@ -87,27 +87,39 @@ export const assets = {
 export const projectsData = [
   {
     title: "Patriot",
-    description: "Front-End Web Development",
+    description: "Front-End Web",
     bgImage: "/projects/patriot.png",
     link: "https://patriot-website.netlify.app/",
   },
   {
     title: "TWICE Universe",
-    description: "Front-End Web Development",
+    description: "Front-End Web",
     bgImage: "/projects/twice-universe.png",
     link: "https://twice-universe.netlify.app/",
   },
   {
     title: "Bookshelf",
-    description: "Front-End Web Development",
+    description: "Front-End Web",
     bgImage: "/projects/bookshelf.png",
     link: "https://my-bookshelf-website.netlify.app/",
   },
   {
     title: "Saintalk",
-    description: "Full-Stack Web Development",
+    description: "Full-Stack Web",
     bgImage: "/projects/saintalk.png",
     link: "https://github.com/Fikri-Rouzan/saintalk",
+  },
+  {
+    title: "Notes App",
+    description: "Front-End Web",
+    bgImage: "/projects/notes-app.png",
+    link: "https://my-notes-app-website.netlify.app/",
+  },
+  {
+    title: "My AI",
+    description: "Front-End Android",
+    bgImage: "/projects/my-ai.png",
+    link: "https://github.com/Fikri-Rouzan/my-ai",
   },
 ];
 
