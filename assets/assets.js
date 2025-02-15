@@ -1,7 +1,7 @@
-import code_icon from "./icons/code-icon.png";
-import code_icon_dark from "./icons/code-icon-dark.png";
-import edu_icon from "./icons/edu-icon.png";
-import edu_icon_dark from "./icons/edu-icon-dark.png";
+import about from "./icons/about.png";
+import about_dark from "./icons/about-dark.png";
+import edu from "./icons/edu.png";
+import edu_dark from "./icons/edu-dark.png";
 import mail_icon from "./icons/mail_icon.png";
 import mail_icon_dark from "./icons/mail_icon_dark.png";
 import close_black from "./icons/close-black.png";
@@ -34,11 +34,18 @@ import github_dark from "./media/github-dark.png";
 import linkedin from "./media/linkedin.png";
 import linkedin_dark from "./media/linkedin-dark.png";
 
-import vscode from "./tools/vscode.png";
-import figma from "./tools/figma.png";
-import git from "./tools/git.png";
+import word from "./tools/word.png";
+import excel from "./tools/excel.png";
 import canva from "./tools/canva.png";
+import vscode from "./tools/vscode.png";
+import github from "./tools/github.png";
+import git from "./tools/git.png";
+import vite from "./tools/vite.png";
 import laragon from "./tools/laragon.png";
+import postman from "./tools/postman.png";
+import figma from "./tools/figma.png";
+import intellij from "./tools/intellij.png";
+import androidstudio from "./tools/androidstudio.png";
 
 import c from "./tech-stack/c.png";
 import html from "./tech-stack/html.png";
@@ -61,10 +68,10 @@ import jetpack from "./tech-stack/jetpack.png";
 import python from "./tech-stack/python.png";
 
 export const assets = {
-  code_icon,
-  code_icon_dark,
-  edu_icon,
-  edu_icon_dark,
+  about,
+  about_dark,
+  edu,
+  edu_dark,
   mail_icon,
   mail_icon_dark,
   close_black,
@@ -97,11 +104,18 @@ export const assets = {
   linkedin,
   linkedin_dark,
 
-  vscode,
-  figma,
-  git,
+  word,
+  excel,
   canva,
+  vscode,
+  github,
+  git,
+  vite,
   laragon,
+  postman,
+  figma,
+  intellij,
+  androidstudio,
 
   c,
   html,
@@ -194,14 +208,14 @@ export const serviceData = [
 
 export const infoList = [
   {
-    icon: assets.code_icon,
-    iconDark: assets.code_icon_dark,
-    title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    icon: assets.about,
+    iconDark: assets.about_dark,
+    title: "About",
+    description: "Hi! my name is Muhammad Fikri Rouzan Ash Shidik.",
   },
   {
-    icon: assets.edu_icon,
-    iconDark: assets.edu_icon_dark,
+    icon: assets.edu,
+    iconDark: assets.edu_dark,
     title: "Education",
     description:
       "Informatics Engineering student at Syarif Hidayatullah State Islamic University Jakarta",
@@ -209,11 +223,18 @@ export const infoList = [
 ];
 
 export const toolsData = [
-  assets.vscode,
-  assets.figma,
-  assets.git,
+  assets.word,
+  assets.excel,
   assets.canva,
+  assets.vscode,
+  assets.github,
+  assets.git,
+  assets.vite,
   assets.laragon,
+  assets.postman,
+  assets.figma,
+  assets.intellij,
+  assets.androidstudio,
 ];
 
 export const techStack = [
