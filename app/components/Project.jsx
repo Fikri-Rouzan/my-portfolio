@@ -28,7 +28,7 @@ const Project = ({ isDarkMode }) => {
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.5 }}
-        className="text-center mb-2 text-lg font-OVo"
+        className="text-center mb-2 text-lg font-Ovo"
       >
         My Portfolio
       </motion.h4>
@@ -36,7 +36,7 @@ const Project = ({ isDarkMode }) => {
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}
-        className="text-center text-5xl font-OVo"
+        className="text-center text-5xl font-Ovo"
       >
         My Latest Projects
       </motion.h2>
@@ -44,7 +44,7 @@ const Project = ({ isDarkMode }) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.7, duration: 0.5 }}
-        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-OVo"
+        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
       >
         Welcome to my projects collection!
       </motion.p>

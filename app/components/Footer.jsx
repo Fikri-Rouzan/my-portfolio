@@ -32,7 +32,7 @@ const Footer = ({ isDarkMode }) => {
           <li>
             <a target="_blank" href="https://github.com/Fikri-Rouzan">
               <Image
-                src={isDarkMode ? assets.github_dark : assets.github}
+                src={isDarkMode ? assets.github_dark : assets.github_light}
                 alt=""
                 className="w-6"
               />

@@ -23,22 +23,42 @@ import mobile_icon from "./icons/mobile-icon.png";
 import ui_icon from "./icons/ui-icon.png";
 import graphics_icon from "./icons/graphics-icon.png";
 
-import vscode from "./tools/vscode.png";
-import figma from "./tools/figma.png";
-import git from "./tools/git.png";
-import canva from "./tools/canva.png";
-import laragon from "./tools/laragon.png";
-
 import logo from "./images/logo.png";
 import logo_dark from "./images/logo_dark.png";
 import user_image from "./images/user-image.png";
 import profile_img from "./images/profile-img.png";
 import header_bg_color from "./images/header-bg-color.png";
 
-import github from "./media/github.png";
+import github_light from "./media/github-light.png";
 import github_dark from "./media/github-dark.png";
 import linkedin from "./media/linkedin.png";
 import linkedin_dark from "./media/linkedin-dark.png";
+
+import vscode from "./tools/vscode.png";
+import figma from "./tools/figma.png";
+import git from "./tools/git.png";
+import canva from "./tools/canva.png";
+import laragon from "./tools/laragon.png";
+
+import c from "./tech-stack/c.png";
+import html from "./tech-stack/html.png";
+import css from "./tech-stack/css.png";
+import javascript from "./tech-stack/javascript.png";
+import bootstrap from "./tech-stack/bootstrap.png";
+import react from "./tech-stack/react.png";
+import java from "./tech-stack/java.png";
+import mysql from "./tech-stack/mysql.png";
+import laravel from "./tech-stack/laravel.png";
+import php from "./tech-stack/php.png";
+import tailwind from "./tech-stack/tailwind.png";
+import flutter from "./tech-stack/flutter.png";
+import dart from "./tech-stack/dart.png";
+import next from "./tech-stack/next.png";
+import node from "./tech-stack/node.png";
+import typescript from "./tech-stack/typescript.png";
+import kotlin from "./tech-stack/kotlin.png";
+import jetpack from "./tech-stack/jetpack.png";
+import python from "./tech-stack/python.png";
 
 export const assets = {
   code_icon,
@@ -66,22 +86,42 @@ export const assets = {
   ui_icon,
   graphics_icon,
 
-  vscode,
-  figma,
-  git,
-  canva,
-  laragon,
-
   logo,
   logo_dark,
   user_image,
   profile_img,
   header_bg_color,
 
-  github,
+  github_light,
   github_dark,
   linkedin,
   linkedin_dark,
+
+  vscode,
+  figma,
+  git,
+  canva,
+  laragon,
+
+  c,
+  html,
+  css,
+  javascript,
+  bootstrap,
+  react,
+  java,
+  mysql,
+  laravel,
+  php,
+  tailwind,
+  flutter,
+  dart,
+  next,
+  node,
+  typescript,
+  kotlin,
+  jetpack,
+  python,
 };
 
 export const projectsData = [
@@ -174,4 +214,26 @@ export const toolsData = [
   assets.git,
   assets.canva,
   assets.laragon,
+];
+
+export const techStack = [
+  assets.c,
+  assets.html,
+  assets.css,
+  assets.javascript,
+  assets.bootstrap,
+  assets.react,
+  assets.java,
+  assets.mysql,
+  assets.laravel,
+  assets.php,
+  assets.tailwind,
+  assets.flutter,
+  assets.dart,
+  assets.next,
+  assets.node,
+  assets.typescript,
+  assets.kotlin,
+  assets.jetpack,
+  assets.python,
 ];

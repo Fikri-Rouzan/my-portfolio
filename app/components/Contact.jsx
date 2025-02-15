@@ -11,7 +11,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "b58505ff-c67a-43ef-86b7-18691084e3f2");
+    formData.append("access_key", process.env.NEXT_PUBLIC_ACCESS_KEY);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -41,7 +41,7 @@ const Contact = () => {
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.5 }}
-        className="text-center mb-2 text-lg font-OVo"
+        className="text-center mb-2 text-lg font-Ovo"
       >
         Connect With Me
       </motion.h4>
@@ -49,7 +49,7 @@ const Contact = () => {
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}
-        className="text-center text-5xl font-OVo"
+        className="text-center text-5xl font-Ovo"
       >
         Get in Touch
       </motion.h2>
@@ -57,7 +57,7 @@ const Contact = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.7, duration: 0.5 }}
-        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-OVo"
+        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
       >
         If you have any questions, comments, or feedback, please use the form
         below.

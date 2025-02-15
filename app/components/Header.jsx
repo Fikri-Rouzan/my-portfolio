@@ -17,7 +17,7 @@ const Header = () => {
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.3 }}
-        className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-OVo "
+        className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo "
       >
         Hi! I'm Muhammad Fikri Rouzan Ash Shidik 👋
       </motion.h3>
@@ -25,7 +25,7 @@ const Header = () => {
         initial={{ y: -30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
-        className="text-3xl sm:text-6xl lg:text-[66px] font-OVo"
+        className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo"
       >
         Front-End Web Developer
       </motion.h1>
@@ -33,7 +33,7 @@ const Header = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.7 }}
-        className="max-w-2xl mx-auto font-OVo"
+        className="max-w-2xl mx-auto font-Ovo"
       >
         I am a Front-End Web Developer from Indonesia.
       </motion.p>

@@ -16,7 +16,7 @@ const About = ({ isDarkMode }) => {
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
-        className="text-center mb-2 text-lg font-OVo"
+        className="text-center mb-2 text-lg font-Ovo"
       >
         Introduction
       </motion.h4>
@@ -24,7 +24,7 @@ const About = ({ isDarkMode }) => {
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.5 }}
-        className="text-center text-5xl font-OVo"
+        className="text-center text-5xl font-Ovo"
       >
         About Me
       </motion.h2>
@@ -52,14 +52,14 @@ const About = ({ isDarkMode }) => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="flex-1"
         >
-          <p className="mb-10 max-w-2xl font-OVo">
+          <p className="mb-10 max-w-2xl font-Ovo">
             Hello my name is Muhammad Fikri Rouzan Ash Shidik.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
-            className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-max"
           >
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
@@ -85,7 +85,7 @@ const About = ({ isDarkMode }) => {
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ delay: 1.3, duration: 0.5 }}
-            className="my-6 text-gray-700 font-OVo dark:text-white/80"
+            className="my-6 text-gray-700 font-Ovo dark:text-white/80"
           >
             Tools I Use
           </motion.h4>

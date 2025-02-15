@@ -14,7 +14,7 @@ export default {
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
-        OVo: ["Ovo", "serif"],
+        Ovo: ["Ovo", "serif"],
       },
       boxShadow: {
         black: "4px 4px 0 #000",
@@ -22,6 +22,20 @@ export default {
       },
       gridTemplateColumns: {
         auto: "repeat(auto-fit, minmax(200px, 1fr))",
+      },
+      keyframes: {
+        "slide-left": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+        "slide-right": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(100%)" },
+        },
+      },
+      animation: {
+        "slide-left": "slide-left 20s linear infinite",
+        "slide-right": "slide-right 20s linear infinite",
       },
     },
   },

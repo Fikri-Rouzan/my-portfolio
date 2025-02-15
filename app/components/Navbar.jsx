@@ -52,7 +52,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         >
           <li>
             <a
-              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              className="font-Ovo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               href="#top"
             >
               Home
@@ -60,7 +60,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a
-              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              className="font-Ovo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               href="#about"
             >
               About Me
@@ -68,7 +68,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a
-              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              className="font-Ovo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               href="#services"
             >
               Services
@@ -76,7 +76,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a
-              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              className="font-Ovo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               href="#projects"
             >
               Projects
@@ -84,7 +84,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a
-              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              className="font-Ovo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               href="#contact"
             >
               Contact
@@ -101,7 +101,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </button>
           <a
             href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-OVo hover:text-pink-500 dark:border-white/50 dark:hover:text-lime-300 transition-colors"
+            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo hover:text-pink-500 dark:border-white/50 dark:hover:text-lime-300 transition-colors"
           >
             Contact
             <Image
@@ -133,7 +133,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </div>
           <li>
             <a
-              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              className="font-Ovo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               onClick={closeMenu}
               href="#top"
             >
@@ -142,7 +142,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a
-              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              className="font-Ovo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               onClick={closeMenu}
               href="#about"
             >
@@ -151,7 +151,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a
-              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              className="font-Ovo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               onClick={closeMenu}
               href="#services"
             >
@@ -160,7 +160,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a
-              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              className="font-Ovo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               onClick={closeMenu}
               href="#projects"
             >
@@ -169,7 +169,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a
-              className="font-OVo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
+              className="font-Ovo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               onClick={closeMenu}
               href="#contact"
             >
