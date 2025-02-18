@@ -158,7 +158,13 @@ export const projectsData = [
     link: "https://my-bookshelf-website.netlify.app/",
   },
   {
-    title: "Saintalk",
+    title: "StayKos",
+    description: "Full-Stack Web",
+    bgImage: "/projects/staykos.png",
+    link: "https://github.com/Fikri-Rouzan/staykos",
+  },
+  {
+    title: "SainTalk",
     description: "Full-Stack Web",
     bgImage: "/projects/saintalk.png",
     link: "https://github.com/Fikri-Rouzan/saintalk",

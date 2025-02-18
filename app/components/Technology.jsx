@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
 
-const TechStack = () => {
+const Technology = () => {
   return (
     <motion.div
       className="w-full px-[12%] py-10 scroll-mt-20"
@@ -17,7 +17,7 @@ const TechStack = () => {
         transition={{ delay: 0.3, duration: 0.5 }}
         className="text-center mb-2 text-lg font-Ovo"
       >
-        Tech Stack
+        Technologies
       </motion.h4>
       <motion.h2
         initial={{ y: -20, opacity: 0 }}
@@ -25,7 +25,7 @@ const TechStack = () => {
         transition={{ delay: 0.5, duration: 0.5 }}
         className="text-center text-5xl font-Ovo"
       >
-        My Tech Stack
+        My Tech Stack and Tools
       </motion.h2>
       <div className="relative overflow-hidden flex my-20">
         <motion.div
@@ -63,4 +63,4 @@ const TechStack = () => {
   );
 };
 
-export default TechStack;
+export default Technology;

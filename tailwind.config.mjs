@@ -34,8 +34,8 @@ export default {
         },
       },
       animation: {
-        "slide-left": "slide-left 20s linear infinite",
-        "slide-right": "slide-right 20s linear infinite",
+        "slide-left": "slide-left 40s linear infinite",
+        "slide-right": "slide-right 40s linear infinite",
       },
     },
   },
