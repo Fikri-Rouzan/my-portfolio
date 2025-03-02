@@ -46,6 +46,8 @@ import postman from "./tools/postman.png";
 import figma from "./tools/figma.png";
 import intellij from "./tools/intellij.png";
 import androidstudio from "./tools/androidstudio.png";
+import pycharm from "./tools/pycharm.png";
+import kali from "./tools/kali.png";
 
 import c from "./tech-stack/c.png";
 import html from "./tech-stack/html.png";
@@ -116,6 +118,8 @@ export const assets = {
   figma,
   intellij,
   androidstudio,
+  pycharm,
+  kali,
 
   c,
   html,
@@ -181,6 +185,12 @@ export const projectsData = [
     bgImage: "/projects/my-ai.png",
     link: "https://github.com/Fikri-Rouzan/my-ai",
   },
+  {
+    title: "Notes App API",
+    description: "Front-End Web",
+    bgImage: "/projects/notes-app-api.png",
+    link: "https://my-notes-app-api.netlify.app/",
+  },
 ];
 
 export const serviceData = [
@@ -241,6 +251,8 @@ export const toolsData = [
   assets.figma,
   assets.intellij,
   assets.androidstudio,
+  assets.pycharm,
+  assets.kali,
 ];
 
 export const techStack = [
