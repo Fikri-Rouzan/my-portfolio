@@ -18,10 +18,6 @@ import moon_icon from "./icons/moon_icon.png";
 import sun_icon from "./icons/sun_icon.png";
 import download_icon from "./icons/download-icon.png";
 import send_icon from "./icons/send-icon.png";
-import web_icon from "./icons/web-icon.png";
-import mobile_icon from "./icons/mobile-icon.png";
-import ui_icon from "./icons/ui-icon.png";
-import graphics_icon from "./icons/graphics-icon.png";
 
 import logo from "./images/logo.png";
 import logo_dark from "./images/logo_dark.png";
@@ -90,10 +86,6 @@ export const assets = {
   sun_icon,
   download_icon,
   send_icon,
-  web_icon,
-  mobile_icon,
-  ui_icon,
-  graphics_icon,
 
   logo,
   logo_dark,
@@ -193,32 +185,37 @@ export const projectsData = [
   },
 ];
 
-export const serviceData = [
+export const experience = [
   {
-    icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
-    link: "",
+    job: "Management",
+    company: "Dapur Seni",
+    date: "Dec 2023 - Jan 2025",
+    responsibilities: [
+      "Effectively organized and managed the flow of events to ensure smooth execution",
+      "Developed ideas, concepts, and activities for various events",
+      "Worked closely with other divisions to coordinate and prepare for successful events",
+      "Collaborated with team members to discuss and outline the structure of various events",
+      "Ensured all tools and equipment required by various divisions were prepared and organized efficiently",
+      "Created budget plans and organized logistics lists for all tools and equipment necessary for each division",
+      "Managed event finances and meticulously prepared financial reports",
+    ],
   },
   {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
-    description:
-      "Mobile app development involves creating software for mobile devices...",
-    link: "",
+    job: "Junior Cybersecurity Engineer",
+    company: "PT Analisis Forensik Digital",
+    date: "Feb 2025 - Present",
+    responsibilities: [
+      "Utilizing password cracking tools in Kali Linux to identify active user and password pairs on the target site",
+      "Utilizing SQL injection to exploit and retrieve a database containing accounts or passwords",
+    ],
   },
   {
-    icon: assets.ui_icon,
-    title: "UI/UX design",
-    description:
-      "UI/UX design focuses on creating a seamless user experience...",
-    link: "",
-  },
-  {
-    icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
-    link: "",
+    job: "Junior Data Scientist",
+    company: "iLC Learning Center",
+    date: "Feb 2025 - Present",
+    responsibilities: [
+      "Creating a set of questionnaire questions and finding suitable respondents",
+    ],
   },
 ];
 

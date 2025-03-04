@@ -69,9 +69,9 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <li>
             <a
               className="font-Ovo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
-              href="#services"
+              href="#experience"
             >
-              Services
+              Experience
             </a>
           </li>
           <li>
@@ -153,9 +153,9 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <a
               className="font-Ovo hover:text-pink-500 dark:hover:text-lime-300 transition-colors"
               onClick={closeMenu}
-              href="#services"
+              href="#experience"
             >
-              Services
+              Experience
             </a>
           </li>
           <li>
