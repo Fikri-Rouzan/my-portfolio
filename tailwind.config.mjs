@@ -23,20 +23,6 @@ export default {
       gridTemplateColumns: {
         auto: "repeat(auto-fit, minmax(200px, 1fr))",
       },
-      keyframes: {
-        "slide-left": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(-100%)" },
-        },
-        "slide-right": {
-          from: { transform: "translateX(-100%)" },
-          to: { transform: "translateX(0)" },
-        },
-      },
-      animation: {
-        "slide-left": "slide-left 40s linear infinite",
-        "slide-right": "slide-right 40s linear infinite",
-      },
     },
   },
   darkMode: "selector",

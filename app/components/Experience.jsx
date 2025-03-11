@@ -1,6 +1,6 @@
-import { experience } from "@/assets/assets";
 import React from "react";
 import { motion } from "motion/react";
+import ExperienceCard from "../cards/ExperienceCard";
 
 const Experience = () => {
   return (
@@ -35,38 +35,7 @@ const Experience = () => {
       >
         Welcome to my personal experience space.
       </motion.p>
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ delay: 0.9, duration: 0.6 }}
-        className="grid grid-cols-auto gap-6 my-10"
-      >
-        {experience
-          .slice()
-          .reverse()
-          .map(({ job, company, date, responsibilities }, index) => (
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              key={index}
-              className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover -translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
-            >
-              <h3 className="text-lg font-semibold my-4 text-gray-700 dark:text-white">
-                {job}
-              </h3>
-              <p className="text-base my-3 text-gray-700 dark:text-white">
-                {company}
-              </p>
-              <p className="text-sm my-3 text-gray-700 dark:text-white">
-                {date}
-              </p>
-              <ul className="list-disc pl-5 mt-6 text-sm text-gray-600 leading-6 dark:text-white/80">
-                {responsibilities.map((respons, index) => {
-                  return <li key={index}>{respons}</li>;
-                })}
-              </ul>
-            </motion.div>
-          ))}
-      </motion.div>
+      <ExperienceCard />
     </motion.div>
   );
 };

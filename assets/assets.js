@@ -33,17 +33,18 @@ import linkedin_dark from "./media/linkedin-dark.png";
 import word from "./tools/word.png";
 import excel from "./tools/excel.png";
 import canva from "./tools/canva.png";
-import vscode from "./tools/vscode.png";
+import vs_code from "./tools/vs_code.png";
 import github from "./tools/github.png";
 import git from "./tools/git.png";
 import vite from "./tools/vite.png";
 import laragon from "./tools/laragon.png";
 import postman from "./tools/postman.png";
 import figma from "./tools/figma.png";
-import intellij from "./tools/intellij.png";
-import androidstudio from "./tools/androidstudio.png";
+import intellij_idea from "./tools/intellij_idea.png";
+import android_studio from "./tools/android_studio.png";
 import pycharm from "./tools/pycharm.png";
-import kali from "./tools/kali.png";
+import kali_linux from "./tools/kali_linux.png";
+import google_colab from "./tools/google_colab.png";
 
 import c from "./tech-stack/c.png";
 import html from "./tech-stack/html.png";
@@ -58,12 +59,16 @@ import php from "./tech-stack/php.png";
 import tailwind from "./tech-stack/tailwind.png";
 import flutter from "./tech-stack/flutter.png";
 import dart from "./tech-stack/dart.png";
-import next from "./tech-stack/next.png";
-import node from "./tech-stack/node.png";
+import next_js from "./tech-stack/next_js.png";
+import node_js from "./tech-stack/node_js.png";
 import typescript from "./tech-stack/typescript.png";
 import kotlin from "./tech-stack/kotlin.png";
-import jetpack from "./tech-stack/jetpack.png";
+import jetpack_compose from "./tech-stack/jetpack_compose.png";
 import python from "./tech-stack/python.png";
+
+import dapur_seni from "./logo/dapur_seni.png";
+import analisis_forensik from "./logo/analisis_forensik.png";
+import inovasi_lentera from "./logo/inovasi_lentera.png";
 
 export const assets = {
   about,
@@ -101,17 +106,18 @@ export const assets = {
   word,
   excel,
   canva,
-  vscode,
+  vs_code,
   github,
   git,
   vite,
   laragon,
   postman,
   figma,
-  intellij,
-  androidstudio,
+  intellij_idea,
+  android_studio,
   pycharm,
-  kali,
+  kali_linux,
+  google_colab,
 
   c,
   html,
@@ -126,12 +132,16 @@ export const assets = {
   tailwind,
   flutter,
   dart,
-  next,
-  node,
+  next_js,
+  node_js,
   typescript,
   kotlin,
-  jetpack,
+  jetpack_compose,
   python,
+
+  dapur_seni,
+  analisis_forensik,
+  inovasi_lentera,
 };
 
 export const projectsData = [
@@ -183,10 +193,17 @@ export const projectsData = [
     bgImage: "/projects/notes-app-api.png",
     link: "https://my-notes-app-api.netlify.app/",
   },
+  {
+    title: "My Portfolio",
+    description: "Front-End Web",
+    bgImage: "/projects/my-portfolio.png",
+    link: "https://fikri-portfolio-website.vercel.app/",
+  },
 ];
 
 export const experience = [
   {
+    icon: assets.dapur_seni,
     job: "Management",
     company: "Dapur Seni",
     date: "Dec 2023 - Jan 2025",
@@ -201,6 +218,7 @@ export const experience = [
     ],
   },
   {
+    icon: assets.analisis_forensik,
     job: "Junior Cybersecurity Engineer",
     company: "PT Analisis Forensik Digital",
     date: "Feb 2025 - Present",
@@ -210,8 +228,9 @@ export const experience = [
     ],
   },
   {
+    icon: assets.inovasi_lentera,
     job: "Junior Data Scientist",
-    company: "iLC Learning Center",
+    company: "PT Inovasi Lentera Cipta Kreasi",
     date: "Feb 2025 - Present",
     responsibilities: [
       "Creating a set of questionnaire questions and finding suitable respondents",
@@ -239,17 +258,18 @@ export const toolsData = [
   assets.word,
   assets.excel,
   assets.canva,
-  assets.vscode,
+  assets.vs_code,
   assets.github,
   assets.git,
   assets.vite,
   assets.laragon,
   assets.postman,
   assets.figma,
-  assets.intellij,
-  assets.androidstudio,
+  assets.intellij_idea,
+  assets.android_studio,
   assets.pycharm,
-  assets.kali,
+  assets.kali_linux,
+  assets.google_colab,
 ];
 
 export const techStack = [
@@ -266,10 +286,10 @@ export const techStack = [
   assets.tailwind,
   assets.flutter,
   assets.dart,
-  assets.next,
-  assets.node,
+  assets.next_js,
+  assets.node_js,
   assets.typescript,
   assets.kotlin,
-  assets.jetpack,
+  assets.jetpack_compose,
   assets.python,
 ];
