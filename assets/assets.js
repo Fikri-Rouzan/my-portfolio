@@ -243,7 +243,8 @@ export const infoList = [
     icon: assets.about,
     iconDark: assets.about_dark,
     title: "About",
-    description: "Hi! my name is Muhammad Fikri Rouzan Ash Shidik.",
+    description:
+      "Hi, I'm Muhammad Fikri Rouzan Ash Shidik, an Informatics Engineering student at Syarif Hidayatullah State Islamic University Jakarta. I'm passionate about web development, UI/UX design, and data science. I enjoy working with tools such as Visual Studio Code, Git, Google Colab, Figma, and Canva. I'm eager to grow and develop further in the fields of front-end web development and data analytics.",
   },
   {
     icon: assets.edu,
